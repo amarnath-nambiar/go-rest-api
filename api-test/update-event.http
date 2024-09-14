@@ -1,0 +1,9 @@
+PUT http://localhost:8080/events/1
+content-type: application/json
+
+{
+  "name": "React COnf",
+  "description": "A reactdev event",
+  "location": "Delhi",
+  "dateTime": "2023-02-01T15:30:00.000Z"
+}

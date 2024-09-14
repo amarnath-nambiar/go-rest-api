@@ -1,0 +1,9 @@
+POST http://localhost:8080/events
+content-type: application/json
+
+{
+  "name": "Gophercon",
+  "description": "A test event",
+  "location": "Bangalore",
+  "dateTime": "2025-02-01T15:30:00.000Z"
+}
